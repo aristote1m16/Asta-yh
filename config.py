@@ -5,7 +5,7 @@ import os
 from pathlib import Path
 
 # ── Telegram ──────────────────────────────────────────────────────────────
-BOT_TOKEN = os.getenv("BOT_TOKEN", "9247918614:AAHNL-x7yjzWOJcK9j1WxAEC5N6OHr2Bd-I")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "PUT_YOUR_BOT_TOKEN_HERE")
 ALLOWED_USER_IDS = set()  # empty = personal / open to whoever has the token
 # example: ALLOWED_USER_IDS = {123456789}
 
